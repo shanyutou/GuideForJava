@@ -131,9 +131,11 @@ public class Genericity {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
 
         add(1,2);
+        add(1.0,2.0);
 
         List<String> list = new ArrayList<String>();
         //list.add(1);//泛型提供类型的约束，提供编译前的检查
+        list.add("a");
 
         A<String> a = new A<String>();
         a.setVar("hello");
