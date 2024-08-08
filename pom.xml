@@ -9,5 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>thread-usage</module>
+      <module>base-usage</module>
   </modules>
 </project>
